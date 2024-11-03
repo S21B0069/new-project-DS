@@ -57,5 +57,6 @@ ax.boxplot(cleaned_data)
 
 # Show the updated plot
 plt.show()
+st.pyplot(plt.gcf())
 
 new_df=df[df['Adult Mortality']<upper_bound]
