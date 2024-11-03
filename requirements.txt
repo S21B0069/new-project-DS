@@ -1,4 +1,5 @@
 matplotlib
-
+numpy
 seaborn
 sklearn
+streamlit
